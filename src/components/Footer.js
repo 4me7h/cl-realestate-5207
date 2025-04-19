@@ -26,7 +26,7 @@ const Footer = () => {
                 </li>
             </ul> */}
             <p className="footer__copy__text">
-                #lobotours {year}
+                #realestate-5207 {year}
             </p>
         </div>
     )

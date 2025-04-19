@@ -1,10 +1,10 @@
 import './App.scss';
 import Hero from './components/Hero';
-import About from './components/About';
-import Schedules from './components/Schedules';
-import Header from './components/Header';
+// import About from './components/About';
+// import Schedules from './components/Schedules';
+// import Header from './components/Header';
 import Footer from './components/Footer';
-import Contact from './components/Contact';
+// import Contact from './components/Contact';
 // import Services from './components/Services';
 
 // import { Element } from 'react-scroll';
@@ -14,12 +14,12 @@ function App() {
   return (
     <ParallaxProvider>
     <>
-      <Header />
+      {/* <Header /> */}
       <Hero />
-      <About />
-      <Schedules />
+      {/* <About /> */}
+      {/* <Schedules /> */}
       {/* <Services />*/}
-      <Contact />
+      {/* <Contact /> */}
       <Footer />
     </>
     </ParallaxProvider>
