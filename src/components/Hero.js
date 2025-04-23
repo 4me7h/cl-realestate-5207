@@ -6,15 +6,17 @@ import { Zoom } from 'react-awesome-reveal';
 import { useParallax } from 'react-scroll-parallax';
 import { useState, useEffect } from 'react';
 
-import imgBackground01 from '../images/img-destino-01.jpg';
-import imgBackground02 from '../images/img-destino-02.jpg';
-import imgBackground03 from '../images/img-destino-03.jpg';
-import imgBackground04 from '../images/img-destino-04.jpg';
-import imgBackground05 from '../images/img-destino-05.jpg';
+import imgBackground01 from '../images/img-01.jpg';
+import imgBackground02 from '../images/img-02.jpg';
+import imgBackground03 from '../images/img-03.jpg';
+import imgBackground04 from '../images/img-04.jpg';
+import imgBackground05 from '../images/img-05.jpg';
+import imgBackground06 from '../images/img-06.jpg';
+import imgBackground07 from '../images/img-07.jpg';
 
 const Hero = () => {
     const [currentSlide, setCurrentSlide] = useState(0);
-    const backgrounds = [imgBackground01, imgBackground02, imgBackground03, imgBackground04, imgBackground05];
+    const backgrounds = [imgBackground01, imgBackground02, imgBackground03, imgBackground04, imgBackground05, imgBackground06, imgBackground07];
     // Cambia la imagen de fondo cada 5 segundos
 
     useEffect(() => {
@@ -38,11 +40,10 @@ const Hero = () => {
                         <div ref={ref} className="hero__content">
                             <div className='hero__content__header'>
                                 <Zoom triggerOnce cascade>
-                                    {/* <h4 className="text--lead text-white">Tu mejor opción para viajes seguros, cómodos y puntuales</h4> */}
-                                    <h1 className="text--title text-white">Real Estate 5207 Sale Ave
+                                    <h1 className="text--title text-white">5207 Sale Ave <br /> <span className="text--price">$1,060,000</span>
                                     </h1>
-                                    {/* <h4 className="text--lead text-white mb-5">Desde Tuxtla Gutiérrez, Chiapas.</h4>
-                                    <a className="btn btn--secondary" target="__blank" href="https://wa.me/+5219613037177?text=Lobo%20Tours:%20Estoy%20interesado%20en%20un%20viaje%20de%20clase%20económica">Solicita tus boletos aquí</a> */}
+                                    <h4 className="text--lead text-white mb-5">Woodland Hills CA 91364</h4>
+                                    <a className="btn btn--primary" target="__blank" href="https://wa.me/+13106334350?text=Hi,%20I'm%20interested%20in%20the%20property%20at%205207%20Sale%20Ave,%20Woodland%20Hills.%20Can%20you%20share%20more%20details%20or%20schedule%20a%20viewing?">Call now to schedule a viewing</a>
 
                                     <div className="slider-controls">
                                     {backgrounds.map((_, index) => (

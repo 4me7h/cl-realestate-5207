@@ -1,8 +1,8 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet');
+@import url('https://fonts.googleapis.com/css2?family=Italiana&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Italiana&family=Quicksand:wght@300..700&display=swap');
 
-$ff-p: "Montserrat", sans-serif;
-$ff-s: 'Open Sans', sans-serif;
+$ff-p: "Italiana", sans-serif;
+$ff-s: 'Quicksand', sans-serif;
 
 //sizes 
 $fs-mn: 14px;
@@ -24,14 +24,14 @@ $fw-8: 800;
 
 
 h1,
-h2,
+h2 {
+    font-family: $ff-p;
+}
+
 h3,
 h4,
 h5,
-h6 {
-    font-family: $ff-p;
-    
-}
+h6, 
 body,
 p,
 li,
@@ -81,7 +81,7 @@ span {
             font-size: $fs-xl;
         }
         @include media('md') {
-            font-size: $fs-xl;
+            font-size: $fs-bg;
         }
     }
 
