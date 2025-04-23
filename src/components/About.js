@@ -101,7 +101,7 @@ export default function About() {
                 </p>
               </div>
               <div className="about__content text-center">
-                <a className="btn btn--secondary" target="__blank" href="https://wa.me/+5219613037177?text=Lobo%20Tours:%20Estoy%20interesado%20en%20un%20viaje%20de%20clase%20económica">PRIVATE SHOWING</a>
+                <a className="btn btn--secondary" target="__blank" href="https://wa.me/+13106334350?text=Hi,%20I'm%20interested%20in%20the%20property%20at%205207%20Sale%20Ave,%20Woodland%20Hills.%20Can%20you%20share%20more%20details%20or%20schedule%20a%20viewing?">PRIVATE SHOWING</a>
               </div>
             </div>
             </Fade>
