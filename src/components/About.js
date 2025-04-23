@@ -76,8 +76,8 @@ export default function About() {
                       <div className="boxes__icon">
                         <FaDollarSign size={45}/>
                       </div>
-                      <h4 className="text--lead boxes__title">Price:</h4>
-                      <p className='text--body boxes__content'>$1,060,000</p>
+                      <h4 className="text--lead boxes__title">Price: $1,060,000</h4>
+                      <p className='text--body boxes__content'>Price/SqFt: $775.99</p>
                     </li>
                   </ul>
                 </div>
