@@ -40,10 +40,15 @@ const Hero = () => {
                         <div ref={ref} className="hero__content">
                             <div className='hero__content__header'>
                                 <Zoom triggerOnce cascade>
-                                    <h1 className="text--title text-white">5207 Sale Ave <br /> <span className="text--price">$1,060,000</span>
+                                    <h4 className="text--lead text-white">
+                                        Woodland Hills CA 91364
+                                    </h4>
+                                    <h1 className="text--title text-white">5207 Sale Ave <br /> <span className="text--subtitle">Just Sold for $1,060,000</span>
                                     </h1>
-                                    <h4 className="text--lead text-white mb-5">Woodland Hills CA 91364</h4>
-                                    <a className="btn btn--primary" target="__blank" href="https://wa.me/+13106334350?text=Hi,%20I'm%20interested%20in%20the%20property%20at%205207%20Sale%20Ave,%20Woodland%20Hills.%20Can%20you%20share%20more%20details%20or%20schedule%20a%20viewing?">Call now to schedule a viewing</a>
+                                    <h4 className="text--lead text-white mb-5">
+                                        We Have Qualified Buyers Ready!
+                                    </h4>
+                                    <a className="btn btn--primary" target="__blank" href="sms:+13106334350?body=Hi%2C%20I'm%20interested%20in%20the%20property%205207%20Sale%20Ave.%20Please%20contact%20me.">Thinking of Selling? Call Today!</a>
 
                                     <div className="slider-controls">
                                     {backgrounds.map((_, index) => (

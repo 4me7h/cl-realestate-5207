@@ -28,12 +28,11 @@ export default function About() {
             <Fade cascade triggerOnce direction="left">
             <div className="about__header">
               <div className="about__header__content">
-                <h2 className="text--subtitle text-center text-uppercase text--white">5207 Sale Ave</h2>
-                <h4 className="text--lead text-white">South of 101. South of Ventura Blvd. South of the Boulevard</h4>
+                <h4 className="text--lead text-white">Now’s the time — take advantage of our limited-time seller services offer!</h4>
                 <p className='text--body text-center text-white mb-5'>
                   This Woodland Hills beauty knows how to bring the charm: cozy yet spacious, classic yet updated, peaceful yet perfect for entertaining.
                 </p>
-                <a className="btn btn--secondary" target="__blank" href="https://wa.me/+13106334350?text=Hi,%20I'm%20interested%20in%20the%20property%20at%205207%20Sale%20Ave,%20Woodland%20Hills.%20Can%20you%20share%20more%20details%20or%20schedule%20a%20viewing?">CLICK HERE TO CONTACT</a>
+                <a className="btn btn--secondary" target="__blank" href="sms:+13106334350?body=Hi%2C%20I'm%20interested%20in%20the%20property%205207%20Sale%20Ave.%20Please%20contact%20me.">Schedule Your Free Consultation</a>
               </div>
             </div>
             </Fade>
@@ -94,14 +93,13 @@ export default function About() {
             <Fade cascade triggerOnce direction="left">
             <div className="about__header">
               <div className="about__header__content">
-                <h2 className="text--subtitle text-center text-uppercase text--white">53 Woodland Hills</h2>
-                <h4 className="text--lead text-white">MLS# 24-472029</h4>
+                <h2 className="text--subtitle text-center text-uppercase text--white">Woodland Hills</h2>
                 <p className='text--body text-center text-white mb-5'>
                   Built in 1956, this home is a testament to timeless California living, nestled south of Ventura Boulevard in a highly coveted and desirable area. It's a space where the nostalgia of a simpler era blends seamlessly with the comforts of today. Step inside, and you're greeted by sunlit rooms that exude warmth and character.
                 </p>
               </div>
               <div className="about__content text-center">
-                <a className="btn btn--secondary" target="__blank" href="https://wa.me/+13106334350?text=Hi,%20I'm%20interested%20in%20the%20property%20at%205207%20Sale%20Ave,%20Woodland%20Hills.%20Can%20you%20share%20more%20details%20or%20schedule%20a%20viewing?">PRIVATE SHOWING</a>
+                <a className="btn btn--secondary" target="__blank" href="sms:+13106334350?body=Hi%2C%20I'm%20interested%20in%20the%20property%205207%20Sale%20Ave.%20Please%20contact%20me.">Learn How We Can Sell Your Home Too</a>
               </div>
             </div>
             </Fade>
