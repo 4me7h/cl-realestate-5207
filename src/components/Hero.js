@@ -43,7 +43,7 @@ const Hero = () => {
                                     <h4 className="text--lead text-white">
                                         Woodland Hills CA 91364
                                     </h4>
-                                    <h1 className="text--title text-white">5207 Sale Ave <br /> <span className="text--subtitle">Just Sold for $1,060,000</span>
+                                    <h1 className="text--title text-white">5207 Sale Ave <br /> <span className="text--subtitle">Just Sold for $2,150,000</span>
                                     </h1>
                                     <h4 className="text--lead text-white mb-5">
                                         We Have Qualified Buyers Ready!
